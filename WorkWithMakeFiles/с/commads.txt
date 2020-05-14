@@ -1,0 +1,17 @@
+Without MakeFile:
+
+gcc -o -Wall result main.c init.c base.c task.c init.h base.h task.h 
+./result -d 7
+
+
+With MakeFile:
+
+make             - compile 
+./result -d 8    - start
+make clean       - clear .o
+
+
+Flags:
+
+-d - debug version
+number - size of matrix(default - 7)
