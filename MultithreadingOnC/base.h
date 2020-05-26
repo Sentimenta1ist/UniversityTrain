@@ -25,7 +25,7 @@ sem_t SCR1;
 int flag2 = 0;
 int flag5 = 0;
 
-int flagOfEnd = 2;
+int flagOfEnd = 1;
 
 int int_1;
 int int_2;
@@ -36,7 +36,9 @@ long  long_2;
 unsigned long unsigned_long_1;
 unsigned long unsigned_long_2;
 
-int max_numbers_of_buf = 6;
-int max_queue_length = 12;
+int max_queue_length = 20;
+
+int end_of_4 = 1;
+int end_of_1 = 1;
 
 #endif //PRO_LAB4_BASE_H
